@@ -1,28 +1,33 @@
-body {
-  background: #fff;
-  color: #666666;
-  font-family: "Open Sans", sans-serif;
-}
+@font-face {font-family: Dune; src: url('fonts/Quantum.ttf');}
 
-a {
-  color: #2dc997;
-  text-decoration: none;
-}
+body {background-color: RGB(199, 160, 44);}
 
-a:hover, a:active, a:focus {
-  color: #2dca98;
-  outline: none;
-  text-decoration: none;
-}
+h1 {font-family: Dune;}
 
-p {
-  padding: 0;
-  margin: 0 0 30px 0;
-}
+h3 {Color: Black; Size: 3px; Font: Arial;}
 
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Poppins", sans-serif;
-  font-weight: 400;
-  margin: 0 0 20px 0;
-  padding: 0;
-}
+h2 {Color: Red; Size: 3Px; Font: Calibri;} 
+
+h4 {Color: Pink; size: 3px; Font: Silom;}
+
+p {Color: Black; Size: 2px; Font: Times New Roman;}
+
+table {border: 2.5px solid black;
+
+      border-collapse: collapse;
+
+      padding-left: 1px;
+
+      padding-right: 1px;
+
+      padding-top: 1px;
+
+      padding-bottom: 1px;
+
+      text-align: center;}
+
+th {border: 1px solid red;}
+
+tr {border: 1px solid Blue;}
+
+td {border: 1px solid pink;}
